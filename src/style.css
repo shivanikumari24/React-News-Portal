@@ -1,0 +1,108 @@
+.container {
+    background-color: rgb(219, 230, 253);
+
+}
+
+.news-sub-container {
+    margin: auto auto;
+    width: 80%;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid rgb(31, 31, 31);
+    background-color: rgb(3, 102, 127);
+}
+
+.news-list {
+    max-height: 51rem;
+    overflow-y: auto;
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.backbutton{
+    float: right;
+}
+.backbutton:hover{
+    background-color: rgb(6, 44, 115);
+}
+.backbutton a{
+    text-decoration: none;
+    color: white;
+}
+.news-list li {
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid black;
+    list-style: none;
+    background-color: rgb(183, 219, 255);
+}
+
+.content-container {
+    width: 100%;
+    text-align: left;
+    padding: 2px 5%;
+
+}
+
+.news-list p {
+    color: black;
+}
+
+.content-container a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(10, 10, 228);
+}
+
+.img-container {
+    float: right;
+    width: 20%;
+
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+
+.select select:focus {
+    border-color: #555;
+    outline: none;
+}
+
+.select option {
+    padding: 5px 10px;
+}
